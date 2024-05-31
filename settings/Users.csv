@@ -1,0 +1,9 @@
+type;voornaam;naam;loginnaam;ou;homedrive;homeshare;profielshare;paswoord
+User;Eddie;planckaert;Eplankaert;domain.administrators.PfGebruikers;H;userfolders$;userprofiles$;MoetDaNuEcht2023
+User;Patrick;sercu;Psercu;pfGebruikers;H;userfolders$;userprofiles$;MoetDaNuEcht2023
+User;Madelief;Smets;Msmets;pfgebruikers;H;userfolders$;userprofiles$;MoetDaNuEcht2023
+User;Henk ;Pell;Hpell;directie.pfgebruikers;H;userfolders$;userprofiles$;MoetDaNuEcht2023
+User;Loes ; Heijnen;Lheijnen;staf.pfgebruikers;H;userfolders$;userprofiles$;MoetDaNuEcht2023
+User;Wiel;Nouwen;Wnouwen;productie.administratie.pfgebruikers;H;userfolders$;userprofiles$;MoetDaNuEcht2023
+User;Fons ;Willemsen;Fwillemsens;admins;H;userfolders$;userprofiles$;MoetDaNuEcht2023
+User;Jolanda ;Brands;Jbrands;admins;H;userfolders$;userprofiles$;MoetDaNuEcht2023

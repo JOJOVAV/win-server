@@ -1,0 +1,16 @@
+type;GroepNaam;ou
+Groep;GL_Arbeiders;Gebruikers
+Groep;GL_administratie;Gebruikers
+Groep;GL_Algemeen;Gebruikers
+Groep;GL_staf;staf.pfgebruikers
+Groep;GL_productie;administratie.productie.pfgebruikers
+Groep;GL_directie;directie.pfgebruikers
+Groep;DL_Data_verkoop_R;DL_Groepen.PFGebruikers
+Groep;DL_data_verkoop_RW;DL_Groepen.PFGebruikers
+Groep;DL_data_verkoop_MOD;DL_Groepen.PFGebruikers
+Groep;DL_data_admin_R;DL_Groepen.PFGebruikers
+Groep;DL_data_admin_RW;DL_Groepen.PFGebruikers
+Groep;DL_data_admin_MOD;DL_Groepen.PFGebruikers
+Groep;DL_data_prog_R;DL_Groepen.PFGebruikers
+Groep;DL_data_prog_RW;DL_Groepen.PFGebruikers
+Groep;DL_data_prog_MOD;DL_Groepen.PFGebruikers

@@ -1,0 +1,10 @@
+drive_letter;map;share ;Groep;NTFS_permission;share_permission
+c;\data\verkoop;Data_verkoop;DL_Data_verkoop_R;read;read
+c;\data\verkoop;Data_verkoop;DL_data_verkoop_RW;modify;change
+c;\data\verkoop;Data_verkoop;DL_data_verkoop_MOD;fullcontrol;change
+c;\data\administratie;data_Admin;DL_data_admin_R;read;read
+c;\data\administratie;data_Admin;DL_data_admin_RW;modify;change
+c;\data\administratie;data_Admin;DL_data_admin_MOD;fullcontrol;change
+c;\data\programmeurs;Data_prog;DL_data_prog_R;read;read
+c;\data\programmeurs;Data_prog;DL_data_prog_RW;modify;change
+c;\data\programmeurs;Data_prog;DL_data_prog_MOD;fullcontrol;change
