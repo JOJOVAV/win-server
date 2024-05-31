@@ -7,7 +7,7 @@ $githubUsername = "JOJOVAV"
 $repositoryName = "win-server"
 
 # Set your current version
-$currentVersion = "1.0.0"
+$currentVersion = "1.0.2"
 
 # Fetch the latest release from GitHub
 $latestReleaseUrl = "https://api.github.com/repos/$githubUsername/$repositoryName/releases/latest"
