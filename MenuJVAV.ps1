@@ -3,8 +3,8 @@
 
 
 # Set your GitHub username and repository name
-$githubUsername = "your-github-username"
-$repositoryName = "your-repository-name"
+$githubUsername = "JOJOVAV"
+$repositoryName = "win-server"
 
 # Set your current version
 $currentVersion = "1.0.0"
@@ -16,7 +16,7 @@ $latestVersion = $latestRelease.tag_name
 
 # Compare the latest version with the current version
 if ($latestVersion -ne $currentVersion) {
-    Write-Host "A new version is available: $latestVersion"
+    # Write-Host "A new version is available: $latestVersion"
 
     # Download the latest release assets
     $downloadUrl = $latestRelease.assets[0].browser_download_url
@@ -27,7 +27,12 @@ if ($latestVersion -ne $currentVersion) {
     Expand-Archive -Path $downloadPath -DestinationPath .\latest_release
 
     # Replace your existing files with the updated ones
-    # ...
+    # First, copy all the files from the release folder to the current folder
+    Get-ChildItem -Path ".\latest_release\*" -File | ForEach-Object {
+        Copy-Item -Path $_.FullName -Destination $_.Name
+    }
+    # Then, remove the release folder
+    Remove-Item -Path ".\latest_release" -Recurse
 
     # Perform any additional steps required for the update
     # ...
